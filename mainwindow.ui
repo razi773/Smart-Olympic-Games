@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1177</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Clients</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>1061</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Menu</string>
+     </attribute>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1041</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>C:/Users/Marwen.M/Desktop/game day.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>390</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stades</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>350</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Spectateurs</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>310</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Employee</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>430</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Jeux</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>270</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Joueurs</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Ajouter Joueurs</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Ajout Joueurs</string>
+      </property>
+      <widget class="QLineEdit" name="le_nom">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>90</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_age">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>180</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_email">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>220</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_id">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>220</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">FFFFFF</string>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>180</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_prenom">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>130</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Prenom</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>290</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>270</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Sexe</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>310</y>
+         <width>161</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choisir votre Pays</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Allemagne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Autriche</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Belgique</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bulgarie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Croatie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Danemark</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Espagne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Finlande</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>France</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Grèce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> Irlande</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Italie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pays-Bas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Portugal</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>0</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fichier</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>151</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choisir votre Sexe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Homme</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Femme</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>340</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Actualiser</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>30</y>
+         <width>191</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Gestion des Attestaion</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Générer PDF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Générer Fichier.exe</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="supp_id">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>390</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>230</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Rechercher</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>230</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Trier</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>350</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Type de Sport</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>350</y>
+         <width>161</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choisir votre Sport</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Athletisme</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Boxe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gymnastique</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Natation</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Escrime</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cyclisme</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Esclavade Sportive</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Voile</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tennis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Trampoline</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Plongons</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>230</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Statistique</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>310</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pays</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>440</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>-25</y>
+         <width>1081</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>C:/Users/Marwen.M/Desktop/game day.jpg</pixmap>
+       </property>
+      </widget>
+      <widget class="QTableView" name="tableView">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>280</y>
+         <width>341</width>
+         <height>192</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="supp">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>400</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <zorder>label_7</zorder>
+      <zorder>le_nom</zorder>
+      <zorder>le_age</zorder>
+      <zorder>le_email</zorder>
+      <zorder>le_id</zorder>
+      <zorder>label_2</zorder>
+      <zorder>label_5</zorder>
+      <zorder>label_11</zorder>
+      <zorder>le_prenom</zorder>
+      <zorder>label</zorder>
+      <zorder>label_3</zorder>
+      <zorder>pushButton</zorder>
+      <zorder>label_14</zorder>
+      <zorder>comboBox</zorder>
+      <zorder>label_15</zorder>
+      <zorder>comboBox_3</zorder>
+      <zorder>pushButton_6</zorder>
+      <zorder>comboBox_4</zorder>
+      <zorder>supp_id</zorder>
+      <zorder>pushButton_13</zorder>
+      <zorder>pushButton_12</zorder>
+      <zorder>label_6</zorder>
+      <zorder>comboBox_2</zorder>
+      <zorder>pushButton_11</zorder>
+      <zorder>label_4</zorder>
+      <zorder>pushButton_10</zorder>
+      <zorder>tableView</zorder>
+      <zorder>supp</zorder>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1177</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
