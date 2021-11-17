@@ -5,7 +5,9 @@
 #-------------------------------------------------
 
 QT       += core gui sql
-
+QT  +=charts
+QT  +=printsupport
+QT  +=core gui multimedia multimediawidgets
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Atelier_Connexion
@@ -28,15 +30,20 @@ SOURCES += \
     employe.cpp \
         main.cpp \
         mainwindow.cpp \
-    connection.cpp
+    connection.cpp \
+    notification.cpp \
+    widget.cpp
 
 HEADERS += \
     employe.h \
         mainwindow.h \
-    connection.h
+    connection.h \
+    notification.h \
+    widget.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+        widget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
