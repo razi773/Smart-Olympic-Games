@@ -276,7 +276,7 @@ void MainWindow::on_pushbutton_13_clicked()
 {
     employe A;
     ui->stackedWidget->setCurrentIndex(1);
-    ui->tableView_2->setModel(A.afficher_OP());
+   ui->tableView_2->setModel(A.afficher_OP());
 }
 
 void MainWindow::on_retour_2_clicked()
@@ -341,4 +341,10 @@ void MainWindow::on_comboBox_activated()
 void MainWindow::on_Push_Button_Afficher_clicked()
 {
     ui->tableView->setModel(j.afficher());
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    //ui->tableView_2->setModel(tmphistorique.afficherHistorique());
+
 }

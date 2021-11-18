@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include"employe.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -48,8 +50,11 @@ private slots:
 
     void on_Push_Button_Afficher_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
+    historique tmphistorique ;
 };
 
 #endif // MAINWINDOW_H

@@ -3,6 +3,7 @@
 #include <QString>
 #include <QtSql/QSqlQuery>
 #include <QtSql/QSqlQueryModel>
+#include"historique.h"
 
 
 class employe
@@ -49,6 +50,7 @@ public:
 
                                bool ajouter_OP(QString,QDate);
                                QSqlQueryModel * afficher_OP();
+
 
 
 

@@ -2,6 +2,7 @@
 #include <QSqlQuery>
 #include <QtDebug>
 #include <QDate>
+#include"historique.h"
 
 employe::employe()
 {
@@ -35,6 +36,9 @@ void employe::setemail(QString email){this->email=email;}
 
 bool employe::ajouter()
 {
+    QString etat="Ajouer :  nom : "+nom+" prenom : "+prenom+" grade : "+grade+" email : "+email;
+         historique histo(etat);
+        histo.ajouter_historique();
 
 QSqlQuery query;
 QString id_string= QString::number(id);
@@ -67,11 +71,16 @@ QSqlQueryModel * employe::afficher()
 
 bool employe::supprimer(int id)
 {
+    QString id_string= QString::number(id);
+
+   QString etat="Supprimer : l'id de formation supprimer est :"+id;
+   historique histo(etat);
     QSqlQuery query;
     QString res=QString::number(id);
     query.prepare("DELETE FROM employe WHERE ID= :id");
     query.bindValue(":id",res);
     return query.exec();
+    histo.ajouter_historique();
 }
 bool employe::modifierEmploye(int id,int age,QString nom,QString prenom,QString grade,QString email)
 
@@ -162,10 +171,11 @@ QSqlQueryModel * employe::Recherche(QString a)
     return model;
 }
 
-bool employe::ajouter_OP(QString nom, QDate dateaa)
+bool employe::ajouter_OP( QString nom, QDate dateaa)
 {
     QSqlQuery query;
-    query.prepare("INSERT INTO HISTORIQUE(NOM,DATEA)""VALUES (:nom,:datea)");
+    query.prepare("INSERT INTO HISTORIQUE(,NOM,DATEA)""VALUES (:id,:nom,:datea)");
+
     query.bindValue(":nom",nom);
     query.bindValue(":datea",dateaa);
 
@@ -178,9 +188,10 @@ QSqlQueryModel * employe::afficher_OP()
     model->setQuery("SELECT * FROM HISTORIQUE");
     model->setHeaderData(0,Qt::Horizontal,QObject::tr("id"));
     model->setHeaderData(1,Qt::Horizontal,QObject::tr("nom"));
-    model->setHeaderData(2,Qt::Horizontal,QObject::tr("date"));
+    model->setHeaderData(2,Qt::Horizontal,QObject::tr("datea"));
 
 
+    
     return model;
 }
 

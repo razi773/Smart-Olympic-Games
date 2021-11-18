@@ -28,6 +28,7 @@ CONFIG += c++11
 
 SOURCES += \
     employe.cpp \
+    historique.cpp \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
@@ -36,6 +37,7 @@ SOURCES += \
 
 HEADERS += \
     employe.h \
+    historique.h \
         mainwindow.h \
     connection.h \
     notification.h \

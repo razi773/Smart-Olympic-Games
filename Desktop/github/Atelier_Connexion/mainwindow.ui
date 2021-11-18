@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>-40</x>
-      <y>0</y>
+      <x>20</x>
+      <y>-20</y>
       <width>941</width>
       <height>531</height>
      </rect>
@@ -460,6 +460,19 @@
        <string>recherche:</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>80</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
      <zorder>label_12</zorder>
      <zorder>pushButton</zorder>
      <zorder>tableView</zorder>
@@ -487,6 +500,7 @@
      <zorder>comboBox</zorder>
      <zorder>Push_Button_Afficher</zorder>
      <zorder>label</zorder>
+     <zorder>pushButton_2</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QTableView" name="tableView_2">
@@ -539,7 +553,18 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_4"/>
+    <widget class="QWidget" name="page_4">
+     <widget class="QTableView" name="tableView_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>170</y>
+        <width>401</width>
+        <height>192</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="page_3"/>
    </widget>
   </widget>
