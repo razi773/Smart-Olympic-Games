@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1177</width>
-    <height>732</height>
+    <width>1249</width>
+    <height>753</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>1061</width>
-      <height>591</height>
+      <width>1181</width>
+      <height>651</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -43,7 +43,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/Marwen.M/Desktop/game day.jpg</pixmap>
+       <pixmap>../game day.jpg</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_5">
@@ -119,10 +119,10 @@
      <widget class="QGroupBox" name="groupBox">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1051</width>
-        <height>551</height>
+        <x>20</x>
+        <y>10</y>
+        <width>1131</width>
+        <height>581</height>
        </rect>
       </property>
       <property name="title">
@@ -249,8 +249,8 @@
       <widget class="QPushButton" name="pushButton">
        <property name="geometry">
         <rect>
-         <x>490</x>
-         <y>290</y>
+         <x>350</x>
+         <y>370</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -263,7 +263,7 @@
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>270</y>
+         <y>310</y>
          <width>56</width>
          <height>16</height>
         </rect>
@@ -272,96 +272,11 @@
         <string>Sexe</string>
        </property>
       </widget>
-      <widget class="QComboBox" name="comboBox">
-       <property name="geometry">
-        <rect>
-         <x>120</x>
-         <y>310</y>
-         <width>161</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <item>
-        <property name="text">
-         <string>Choisir votre Pays</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Allemagne</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Autriche</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Belgique</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Bulgarie</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Croatie</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Danemark</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Espagne</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Finlande</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>France</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Grèce</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string> Irlande</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Italie</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Pays-Bas</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Portugal</string>
-        </property>
-       </item>
-      </widget>
       <widget class="QLabel" name="label_15">
        <property name="geometry">
         <rect>
-         <x>640</x>
-         <y>0</y>
+         <x>880</x>
+         <y>50</y>
          <width>56</width>
          <height>16</height>
         </rect>
@@ -374,7 +289,7 @@
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>260</y>
+         <y>310</y>
          <width>151</width>
          <height>22</height>
         </rect>
@@ -398,8 +313,8 @@
       <widget class="QPushButton" name="pushButton_6">
        <property name="geometry">
         <rect>
-         <x>490</x>
-         <y>340</y>
+         <x>350</x>
+         <y>410</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -408,36 +323,11 @@
         <string>Actualiser</string>
        </property>
       </widget>
-      <widget class="QComboBox" name="comboBox_4">
-       <property name="geometry">
-        <rect>
-         <x>640</x>
-         <y>30</y>
-         <width>191</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <item>
-        <property name="text">
-         <string>Gestion des Attestaion</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Générer PDF</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Générer Fichier.exe</string>
-        </property>
-       </item>
-      </widget>
       <widget class="QPushButton" name="supp_id">
        <property name="geometry">
         <rect>
-         <x>490</x>
-         <y>390</y>
+         <x>350</x>
+         <y>450</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -446,11 +336,11 @@
         <string>Supprimer</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_13">
+      <widget class="QPushButton" name="rech">
        <property name="geometry">
         <rect>
-         <x>810</x>
-         <y>230</y>
+         <x>730</x>
+         <y>270</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -462,14 +352,14 @@
       <widget class="QPushButton" name="pushButton_12">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>230</y>
+         <x>990</x>
+         <y>390</y>
          <width>93</width>
          <height>28</height>
         </rect>
        </property>
        <property name="text">
-        <string>Trier</string>
+        <string>Trier ID</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_6">
@@ -563,8 +453,8 @@
       <widget class="QPushButton" name="pushButton_11">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>230</y>
+         <x>580</x>
+         <y>270</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -577,7 +467,7 @@
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>310</y>
+         <y>260</y>
          <width>56</width>
          <height>16</height>
         </rect>
@@ -589,8 +479,8 @@
       <widget class="QPushButton" name="pushButton_10">
        <property name="geometry">
         <rect>
-         <x>490</x>
-         <y>440</y>
+         <x>350</x>
+         <y>490</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -599,28 +489,12 @@
         <string>Modifier</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_7">
-       <property name="geometry">
-        <rect>
-         <x>-10</x>
-         <y>-25</y>
-         <width>1081</width>
-         <height>561</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>C:/Users/Marwen.M/Desktop/game day.jpg</pixmap>
-       </property>
-      </widget>
       <widget class="QTableView" name="tableView">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>280</y>
-         <width>341</width>
+         <x>450</x>
+         <y>350</y>
+         <width>521</width>
          <height>192</height>
         </rect>
        </property>
@@ -628,8 +502,116 @@
       <widget class="QLineEdit" name="supp">
        <property name="geometry">
         <rect>
-         <x>360</x>
-         <y>400</y>
+         <x>230</x>
+         <y>450</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="rech_2">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>310</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_pays">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>430</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Trier Nom</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>470</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Trier Prenom</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>90</y>
+         <width>161</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Générer PDF</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>130</y>
+         <width>161</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Générer Fichier Excel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>1101</width>
+         <height>551</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../Hnet.com-image.jpg</pixmap>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fichier">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>130</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>310</y>
          <width>113</width>
          <height>22</height>
         </rect>
@@ -648,13 +630,11 @@
       <zorder>label_3</zorder>
       <zorder>pushButton</zorder>
       <zorder>label_14</zorder>
-      <zorder>comboBox</zorder>
       <zorder>label_15</zorder>
       <zorder>comboBox_3</zorder>
       <zorder>pushButton_6</zorder>
-      <zorder>comboBox_4</zorder>
       <zorder>supp_id</zorder>
-      <zorder>pushButton_13</zorder>
+      <zorder>rech</zorder>
       <zorder>pushButton_12</zorder>
       <zorder>label_6</zorder>
       <zorder>comboBox_2</zorder>
@@ -663,6 +643,14 @@
       <zorder>pushButton_10</zorder>
       <zorder>tableView</zorder>
       <zorder>supp</zorder>
+      <zorder>rech_2</zorder>
+      <zorder>le_pays</zorder>
+      <zorder>pushButton_8</zorder>
+      <zorder>pushButton_9</zorder>
+      <zorder>pushButton_13</zorder>
+      <zorder>pushButton_14</zorder>
+      <zorder>fichier</zorder>
+      <zorder>lineEdit</zorder>
      </widget>
     </widget>
    </widget>
@@ -672,7 +660,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1177</width>
+     <width>1249</width>
      <height>26</height>
     </rect>
    </property>

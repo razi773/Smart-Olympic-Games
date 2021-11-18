@@ -20,11 +20,25 @@ private slots:
 
     void on_supp_id_clicked();
 
-    void on_pushButton_3_clicked();
-
     void on_pushButton_10_clicked();
 
     void on_pushButton_12_clicked();
+
+    void on_rech_clicked();
+
+    void on_pushButton_8_clicked();//nom
+
+    void on_pushButton_9_clicked();//prenom
+
+    void on_pushButton_13_clicked();
+
+    void on_pushButton_11_clicked();
+
+    void on_pushButton_14_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_lineEdit_textEdited(const QString &arg1);
 
 private:
     Ui::MainWindow *ui;

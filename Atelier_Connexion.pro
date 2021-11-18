@@ -5,6 +5,9 @@
 #-------------------------------------------------
 
 QT       += core gui sql
+QT +=charts
+
+
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -28,15 +31,18 @@ SOURCES += \
     joueurs.cpp \
         main.cpp \
         mainwindow.cpp \
-    connection.cpp
+    connection.cpp \
+    notification.cpp
 
 HEADERS += \
     joueurs.h \
         mainwindow.h \
-    connection.h
+    connection.h \
+    notification.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
