@@ -362,7 +362,7 @@
       <property name="geometry">
        <rect>
         <x>710</x>
-        <y>160</y>
+        <y>90</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -375,7 +375,7 @@
       <property name="geometry">
        <rect>
         <x>710</x>
-        <y>210</y>
+        <y>150</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -460,19 +460,6 @@
        <string>recherche:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>690</x>
-        <y>80</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
      <zorder>label_12</zorder>
      <zorder>pushButton</zorder>
      <zorder>tableView</zorder>
@@ -500,7 +487,6 @@
      <zorder>comboBox</zorder>
      <zorder>Push_Button_Afficher</zorder>
      <zorder>label</zorder>
-     <zorder>pushButton_2</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QTableView" name="tableView_2">

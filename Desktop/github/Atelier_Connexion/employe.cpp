@@ -36,9 +36,7 @@ void employe::setemail(QString email){this->email=email;}
 
 bool employe::ajouter()
 {
-    QString etat="Ajouer :  nom : "+nom+" prenom : "+prenom+" grade : "+grade+" email : "+email;
-         historique histo(etat);
-        histo.ajouter_historique();
+
 
 QSqlQuery query;
 QString id_string= QString::number(id);
@@ -71,16 +69,13 @@ QSqlQueryModel * employe::afficher()
 
 bool employe::supprimer(int id)
 {
-    QString id_string= QString::number(id);
 
-   QString etat="Supprimer : l'id de formation supprimer est :"+id;
-   historique histo(etat);
     QSqlQuery query;
     QString res=QString::number(id);
     query.prepare("DELETE FROM employe WHERE ID= :id");
     query.bindValue(":id",res);
     return query.exec();
-    histo.ajouter_historique();
+
 }
 bool employe::modifierEmploye(int id,int age,QString nom,QString prenom,QString grade,QString email)
 
