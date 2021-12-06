@@ -23,19 +23,19 @@ Joueurs::Joueurs(int i,QString n,QString p,int a,QString e,QString y)
 
 
 
-int Joueurs::getid() {return id;}
-QString Joueurs::getnom(){return nom;}
-QString Joueurs::getprenom(){return prenom;}
-int Joueurs::getage(){return age;}
-QString Joueurs::getemail(){return email;}
-QString Joueurs::getpays(){return pays;}
+int Joueurs::getid_2() {return id;}
+QString Joueurs::getnom_2(){return nom;}
+QString Joueurs::getprenom_2(){return prenom;}
+int Joueurs::getage_2(){return age;}
+QString Joueurs::getemail_2(){return email;}
+QString Joueurs::getpays_2(){return pays;}
 
-void Joueurs::setid(int id){this->id=id;}
-void Joueurs::setnom(QString nom){this->nom=nom;}
-void Joueurs::setprenom(QString prenom){this->prenom=prenom;}
-void Joueurs::setage (int age){this->age=age;}
-void Joueurs::setemail(QString email){this->email=email;}
-void Joueurs::setpays(QString pays){this->pays=pays;}
+void Joueurs::setid_2(int id){this->id=id;}
+void Joueurs::setnom_2(QString nom){this->nom=nom;}
+void Joueurs::setprenom_2(QString prenom){this->prenom=prenom;}
+void Joueurs::setage_2 (int age){this->age=age;}
+void Joueurs::setemail_2(QString email){this->email=email;}
+void Joueurs::setpays_2(QString pays){this->pays=pays;}
 
 
 /*bool Joueurs::verifierCin_aj(int id)

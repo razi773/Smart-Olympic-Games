@@ -3,12 +3,11 @@
 # Project created by QtCreator 2018-10-26T21:45:23
 #
 #-------------------------------------------------
-
+QT       += core gui  serialport
 QT       += core gui sql
-QT +=charts
-
-
-
+QT  +=charts
+QT  +=printsupport
+QT  +=core gui multimedia multimediawidgets
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Atelier_Connexion
@@ -28,21 +27,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+    admin.cpp \
+    arduino.cpp \
+    employe.cpp \
+    historique.cpp \
+    jeux.cpp \
     joueurs.cpp \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
-    notification.cpp
+    notification.cpp \
+    widget.cpp
 
 HEADERS += \
+    admin.h \
+    arduino.h \
+    employe.h \
+    historique.h \
+    jeux.h \
     joueurs.h \
         mainwindow.h \
     connection.h \
-    notification.h
+    notification.h \
+    widget.h
 
 FORMS += \
         mainwindow.ui \
-
+        widget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

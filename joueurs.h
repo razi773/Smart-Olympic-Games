@@ -1,5 +1,7 @@
 #ifndef JOUEURS_H
 #define JOUEURS_H
+
+
 #include<QSqlQuery>
 #include<QtDebug>
 #include <QObject>
@@ -14,21 +16,21 @@ public:
     Joueurs();
     Joueurs (int,QString,QString,int,QString,QString);
         //getters
-        int getid();
-        QString getnom();
-        QString getprenom();
-        int getage();
-        QString getemail();
-        QString getpays();
+        int getid_2();
+        QString getnom_2();
+        QString getprenom_2();
+        int getage_2();
+        QString getemail_2();
+        QString getpays_2();
 
         //settlers
 
-        void setid(int);
-        void setnom(QString);
-        void setprenom(QString);
-        void setage (int);
-        void setemail(QString);
-        void setpays(QString);
+        void setid_2(int);
+        void setnom_2(QString);
+        void setprenom_2(QString);
+        void setage_2 (int);
+        void setemail_2(QString);
+        void setpays_2(QString);
 
 
         //Fonctionnalités de bd
